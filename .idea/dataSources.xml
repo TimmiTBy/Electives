@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2545689360">
+    <data-source source="LOCAL" name="MySQL - electives?useUnicode=true&amp;characterEncoding=UTF-8@localhost" uuid="71a67bd4-1837-4f9e-9219-846846a68881">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/electives?useUnicode=true&amp;characterEncoding=UTF-8</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf98df99</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,326 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background: #DCDDDF url(/img/bagraund.png);
+    color: #000;
+    font: 14px Arial;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+h1{ font-size:28px;}
+h2{ font-size:26px;}
+h3{ font-size:18px;}
+h4{ font-size:16px;}
+h5{ font-size:14px;}
+h6{ font-size:12px;}
+h1,h2,h3,h4,h5,h6{ color:#563D64;}
+small{ font-size:10px;}
+b, strong{ font-weight:bold;}
+a{ text-decoration: none; }
+a:hover{ text-decoration: underline; }
+.left { float:left; }
+.right { float:right; }
+.alignleft { float: left; margin-right: 15px; }
+.alignright { float: right; margin-left: 15px; }
+.clearfix:after,
+form:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.container { margin: 25px auto; position: relative; width: 900px; }
+#content {
+    background: #f9f9f9;
+    box-shadow: 0 1px 0 #fff inset;
+    border: 1px solid #c4c6ca;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    width: 500px;
+}
+#graduatestudentscontent {
+    background: #f9f9f9;
+    box-shadow: 0 1px 0 #fff inset;
+    border: 1px solid #c4c6ca;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    width: 1080px;
+}
+#possiblecoursescontent {
+    background: #f9f9f9;
+    box-shadow: 0 1px 0 #fff inset;
+    border: 1px solid #c4c6ca;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    width: 700px;
+}
+#courseresults {
+    background: #f9f9f9;
+    box-shadow: 0 1px 0 #fff inset;
+    border: 1px solid #c4c6ca;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    width: 730px;
+}
+#universityresults {
+    background: #f9f9f9;
+    box-shadow: 0 1px 0 #fff inset;
+    border: 1px solid #c4c6ca;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    width: 850px;
+}
+form { margin: 0 20px; position: relative }
+.userdata,
+form input[type="password"] {
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+    transition: all 0.5s ease;
+    background: #eae7e7 url(/img/icon_0.png) no-repeat;
+    border: 1px solid #c8c8c8;
+    color: #777;
+    font: 13px Helvetica, Arial, sans-serif;
+    margin: 0 0 10px;
+    padding: 15px 10px 15px 40px;
+    width: 60%;
+}
+.basictext {
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+    transition: all 0.5s ease;
+    background: #eae7e7;
+    border: 1px solid #c8c8c8;
+    color: #777;
+    font: 13px Helvetica, Arial, sans-serif;
+    margin: 0 0 10px;
+    padding: 15px 10px 15px 40px;
+    width: 80%;
+}
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+    box-shadow: 0 0 2px #ed1c24 inset;
+    background-color: #fff;
+    border: 1px solid #ed1c24;
+    outline: none;
+}
+#username, #lname, #fname { background-position: 10px 10px !important }
+#password, #pass1, #pass2 { background-position: 10px -53px !important }
+.loginpagebutton {
+    background: rgb(254,231,154);
+    border-radius: 30px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+    color: #85592e;
+    cursor: pointer;
+    float: left;
+    font: bold 15px Helvetica, Arial, sans-serif;
+    height: 35px;
+    margin: 20px 0 35px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    min-width: 120px;
+    outline:none;
+}
+.submitbutton {
+    background: rgb(254,231,154);
+    border-radius: 30px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+    color: #85592e;
+    cursor: pointer;
+    font: bold 15px Helvetica, Arial, sans-serif;
+    height: 35px;
+    margin: 20px 17px 35px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    min-width: 200px;
+    outline:none;
+}
+.assignmarkbutton {
+    background: rgb(254,231,154);
+    border-radius: 30px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+    color: #85592e;
+    cursor: pointer;
+    font: bold 15px Helvetica, Arial, sans-serif;
+    height: 35px;
+    margin: 1px 5px 1px 5px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    min-width: 200px;
+    outline:none;
+}
+form input[type="submit"]:hover {
+    background: rgb(254,193,81);
+}
+form div a {
+    color: #004a80;
+    float: right;
+    font-size: 12px;
+    margin: 30px 15px 0 0;
+    text-decoration: underline;
+}
+.button {
+    background: rgb(247,249,250);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1) inset;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid #CFD5D9;
+    padding: 15px 0;
+}
+.button a {
+    background: url(/img/icon.png) 0 -112px no-repeat;
+    color: #7E7E7E;
+    font-size: 17px;
+    padding: 2px 0 2px 40px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.button a:hover {
+    background-position: 0 -135px;
+    color: #00aeef;
+}
+#msg {
+    color: red; /* Цвет текста */
+    display: none; /* Прячем сообщение */
+}
+
+
+#lngform {
+    margin: 0 auto;
+    width: 325px;
+}
+
+.regform
+{
+    position: relative;
+    left: 225px;
+    top: -90px;
+}
+
+#vhod {
+    position: relative;
+    left: 87px;
+    float: left;
+    min-width: 120px;
+}
+
+#error {
+    left: -67px;
+    position: relative;
+    color: red;
+}
+
+#successreg {
+    left: -62px;
+    position: relative;
+    color: green;
+}
+
+#noUser {
+    left: 3px;
+    position: relative;
+    color: red;
+}
+
+#regexlogin, #regexpass, #regexcoursename, #regexcoursedescription, #regexfeedback {
+    color: #D85987;
+    font: 12px Arial;
+}
+
+#acclogin, #accfirstname, #acclastname, #abouttext, #email, #forgotpasstext{
+    font: 18px Arial;
+}
+
+#showresults {
+    left:-32px;
+}
+
+#successmessage {
+    color: green;
+}
+
+#errormessage {
+    color: red;
+}
+
+.tbl {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 18px;
+    background: rgba(253, 220, 133, 0.41);
+}
+
+.colth {
+    border: 1px solid;
+    text-align: center;
+    padding: 1px;
+}
+
+.coltd {
+    border: 1px solid;
+    text-align: center;
+    padding: 1px;
+    width: 130px;
+}
+.coltdfeedback {
+    border: 1px solid;
+    text-align: center;
+    padding: 1px;
+    width: 250px;
+}
+
+#markmenu {
+    font-size: 18px;
+}
+.coltddescription {
+    border: 1px solid;
+    text-align: center;
+    padding: 1px;
+    width:300px;
+}
+.courselist {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.coltdchbox {
+    border: 1px solid;
+    text-align: center;
+    padding: 1px;
+}
+#forgotpass {
+    padding-right: 297px;
+}
